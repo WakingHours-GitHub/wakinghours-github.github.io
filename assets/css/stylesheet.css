@@ -440,3 +440,31 @@ a:hover {
     font-size: 24px;
     cursor: pointer;
 }
+
+
+.news-scroll {
+    max-height: 360px;
+    overflow-y: auto;
+    margin-top: 14px;
+    scrollbar-gutter: stable;
+}
+
+.news-scroll:focus-visible {
+    outline: 2px solid #1a0dab;
+    outline-offset: 4px;
+}
+
+.news-list {
+    margin: 0;
+    padding: 0 12px 0 20px;
+}
+
+.news-list li {
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+
+.service-awards-list {
+    padding-left: 20px;
+    line-height: 25px;
+}
